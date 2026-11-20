@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio | EDEN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="cabecalho"></header>
+
+    <main class="pagina">
+        <h1>FAÇA SEU PEDIDO</h1>
+        <p>Escolha seus favoritos e monte sua refeição equilibrada.</p>
+
+        <div class="barra-pesquisa">
+            <input type="text" id="pesquisa" placeholder="Pesquisar poke...">
+            <button onclick="buscarProdutos()"><img src="lupa-arredondada.png" alt=""></button>
+        </div>
+
+        <div class="lista-categorias">
+            <a href="#produtos"><img src="salada.png" alt=""> Pokes</a>
+            <a href="#produtos"><img src="salmao.png" alt=""> Proteicos</a>
+            <a href="#produtos"><img src="folha (1).png" alt=""> Leves</a>
+            <a href="#produtos"><img src="folha (1).png" alt=""> Veganos</a>
+            <a href="#produtos"><img src="garrafa-de-leite.png" alt=""> Bebidas</a>
+        </div>
+
+        <section class="secao">
+            <h2>NOSSO CARDÁPIO</h2>
+            <div class="produtos" id="produtos"></div>
+        </section>
+    </main>
+
+    <footer id="rodape"></footer>
+    <script src="script.js"></script>
+</body>
+</html>

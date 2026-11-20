@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monte seu Poke | EDEN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="cabecalho"></header>
+
+    <main class="pagina">
+        <h1>MONTE O SEU POKE</h1>
+        <p>Escolha os ingredientes que mais gosta e monte do seu jeito.</p>
+
+        <div class="montagem">
+            <div class="opcoes">
+
+                <div class="grupo">
+                    <h3>1. ESCOLHA A BASE</h3>
+                    <label><input type="radio" name="base" value="Arroz integral" checked> Arroz integral</label>
+                    <label><input type="radio" name="base" value="Arroz branco"> Arroz branco</label>
+                    <label><input type="radio" name="base" value="Mix de folhas"> Mix de folhas</label>
+                </div>
+
+                <div class="grupo">
+                    <h3>2. ESCOLHA A PROTEÍNA</h3>
+                    <label><input type="radio" name="proteina" value="Atum" checked> Atum</label>
+                    <label><input type="radio" name="proteina" value="Salmão"> Salmão</label>
+                    <label><input type="radio" name="proteina" value="Frango"> Frango</label>
+                    <label><input type="radio" name="proteina" value="Tofu"> Tofu</label>
+                </div>
+
+                <div class="grupo">
+                    <h3>3. ESCOLHA 3 COMPLEMENTOS</h3>
+                    <label><input type="checkbox" name="complemento" value="Pepino"> Pepino</label>
+                    <label><input type="checkbox" name="complemento" value="Edamame"> Edamame</label>
+                    <label><input type="checkbox" name="complemento" value="Abacate"> Abacate</label>
+                    <label><input type="checkbox" name="complemento" value="Cenoura"> Cenoura</label>
+                    <label><input type="checkbox" name="complemento" value="Manga"> Manga</label>
+                    <label><input type="checkbox" name="complemento" value="Cebola roxa"> Cebola roxa</label>
+                </div>
+
+                <div class="grupo">
+                    <h3>4. ESCOLHA O MOLHO</h3>
+                    <label><input type="radio" name="molho" value="Shoyu" checked> Shoyu</label>
+                    <label><input type="radio" name="molho" value="Gergelim"> Gergelim</label>
+                    <label><input type="radio" name="molho" value="Teriyaki"> Teriyaki</label>
+                    <label><input type="radio" name="molho" value="Spicy Mayo"> Spicy Mayo</label>
+                </div>
+
+            </div>
+
+            <div class="resumo">
+                <!--imagem do poke-->
+                <div class="imagem-poke-monte">
+                    <p><img src="64dbfb22-d07b-4750-bb5d-976a381dc81d.png" alt=""></p>
+                </div>
+
+                <h2>SEU PEDIDO</h2>
+                <p id="resumo-poke">Arroz integral, Atum e Shoyu</p>
+                <h3>R$ 42,90</h3>
+                <button class="botao" onclick="adicionarPoke()">ADICIONAR AO PEDIDO</button>
+            </div>
+        </div>
+    </main>
+
+    <footer id="rodape"></footer>
+    <script src="script.js"></script>
+</body>
+</html>

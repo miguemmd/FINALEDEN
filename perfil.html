@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu perfil | EDEN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="cabecalho"></header>
+
+    <main class="pagina">
+        <h1>MEU PERFIL</h1>
+        <p>Confira e atualize seus dados pessoais.</p>
+
+        <form class="formulario perfil-form" id="formPerfil">
+            <label>Nome completo</label>
+            <input type="text" id="perfilNome" maxlength="60" required>
+
+            <label>E-mail</label>
+            <input type="email" id="perfilEmail" maxlength="60" required>
+
+            <label>CPF</label>
+            <input type="text" id="perfilCpf" maxlength="14" placeholder="000.000.000-00">
+
+            <label>Telefone</label>
+            <input type="text" id="perfilTelefone" maxlength="15" placeholder="(00) 00000-0000">
+
+            <label>CEP</label>
+            <input type="text" id="perfilCep" maxlength="9" placeholder="00000-000">
+
+            <button type="submit" class="botao">SALVAR ALTERAÇÕES</button>
+        </form>
+    </main>
+
+    <footer id="rodape"></footer>
+    <script src="script.js"></script>
+</body>
+</html>
